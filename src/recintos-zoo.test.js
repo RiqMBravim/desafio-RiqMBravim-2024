@@ -47,7 +47,7 @@ describe('Recintos do Zoologico', () => {
 
         const resultado = zoo.analisaRecintos('MACACO', 1);
         expect(resultado.erro).toBeFalsy();
-        expect(resultado.recintosViaveis[0]).toBe('Recinto 1 (espaço livre: 6 togtal: 10)');
+        expect(resultado.recintosViaveis[0]).toBe('Recinto 1 (espaço livre: 6 total: 10)');
         expect(resultado.recintosViaveis[1]).toBe('Recinto 3 (espaço livre: 3 total: 7)');
         expect(resultado.recintosViaveis[2]).toBe('Recinto 6 (espaço livre: 7 total: 10)');
         expect(resultado.recintosViaveis.length).toBe(3);

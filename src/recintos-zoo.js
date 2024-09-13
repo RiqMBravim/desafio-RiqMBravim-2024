@@ -106,7 +106,4 @@ class RecintosZoo {
   }
 }
 
-const resultado = new RecintosZoo().analisaRecintos('HIPOPOTAMO', 1);
-console.log(resultado);
-
-export { RecintosZoo };
+export { RecintosZoo as RecintosZoo };
